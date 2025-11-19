@@ -1,39 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--
+	Aerial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sangmin Kim</title>
-    <link rel="stylesheet" href="css/paper.css">
+    <title>Sang Min Kim - Ricochet Software</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
   </head>
-  <body>
-	
+  <body class="is-preload">
+    <div id="wrapper">
+      <div id="bg"></div>
+      <div id="overlay"></div>
+      <div id="main">
+        <!-- Header -->
+        <header id="header">
+          <h1>Sang Min Kim</h1>
+          <p>Founder of Ricochet Software and Fantasy Diary</p>
+          <nav>
+            <ul>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/sangminkim/"
+                  class="icon brands fa-linkedin-in"
+                  ><span class="label">LinkedIn</span></a
+                >
+              </li>
+              <li>
+                <a href="https://github.com/pluus" class="icon brands fa-github"
+                  ><span class="label">Github</span></a
+                >
+              </li>
+              <li>
+                <a
+                  href="mailto:sangmin.kim@example.com"
+                  class="icon solid fa-envelope"
+                  ><span class="label">Email</span></a
+                >
+              </li>
+            </ul>
+          </nav>
+        </header>
 
-	<div class="container paper">
-		<h1>Hello, It's me, Sangmin Kim!</h1>
-
-  		<img src="images/boardgames.jpeg" style="margin-bottom: 3rem;">
-
-  		<div class="card">
-		  <div class="card-body">
-		    <h4 class="card-title">I'm a nerdy developer who loves learning tabletop games!</h4>
-		    <p class="card-text">
-		    	Hello, I'm Sangmin Kim. Call me "Tyler" if you wish.
-		    	<hr style="margin: 20px 0;">
-		    	I'm a full-stack web developer who's somehow destined to learn completely new tech stacks every time I pursue a new opportunity as a dev. Seriously, zero overlaps for the last 8 years. Though I always had to pick up new technologies... and you know what? I did pretty well! :)
-		    	<br><br>
-		    	I used to be facinated about learning new technologies in the past... but I'm going the opposite way now. I'm very into digging into studying interpreters & compilers and architectures of frameworks I use for work.
-		    	<br><br>
-		    	If you're interested in me as a dev, please download <a href="files/sangmin_tyler_kim_resume.docx" target="_blank">this resume</a>.
-		    	<hr style="margin: 20px 0;">
-		    	By looking at the game collection(and it's only some of my entire collection!), you probably have already guessed at this point. Yes! You're right! I'm a big boardgame fan. Not only do I own <span class="text-danger">700+ games</span> but also I have written over <span class="text-danger">400+ boardgame reviews</span> in Korea for the last 10 years. Eh-hm! Yeah, you can say I'm one of the well-known board game reviewers with a lot of good credits for well-written reviews. If you'd like to see some, please visit <a href="https://boardlife.co.kr/raccoon" target="_blank">here!</a> (tho, it's written in Korean...)
-		    	<br><br>
-
-		    </p>
-		    Say hi to me @<a class="card-link" href="https://www.linkedin.com/in/sangminkim/">My Linkedin page</a>
-		  </div>
-		</div>
-  	</div>
+        <!-- Footer -->
+        <footer id="footer">
+          <span class="copyright"
+            >&copy; Untitled. Design:
+            <a href="http://html5up.net">HTML5 UP</a>.</span
+          >
+        </footer>
+      </div>
+    </div>
+    <script>
+      window.onload = function () {
+        document.body.classList.remove("is-preload");
+      };
+      window.ontouchmove = function () {
+        return false;
+      };
+      window.onorientationchange = function () {
+        document.body.scrollTop = 0;
+      };
+    </script>
   </body>
 </html>
